@@ -1,4 +1,4 @@
-/// Get a variable from the ClearVision variables map
+/// Get a variable from the Late Nights variables map
 /// @param {string} $id identification for a variable
 /// @return {*} variable
 @function cv($id) {
@@ -16,18 +16,18 @@
   }
   $r: map-get($cv, $p);
   @if not $r {
-    @error "#{$p} is not a valid ClearVision set";
+    @error "#{$p} is not a valid Late Nights set";
   }
   @while str-index($s, '.') {
     $r: map-get($r, str-slice($s, 0, str-index($s, '.') - 1));
     @if not $r {
-      @error "Property #{$id} not found in ClearVision #{$p} set";
+      @error "Property #{$id} not found in Late Nights #{$p} set";
     }
     $s: str-slice($s, str-index($s, '.') + 1);
   }
   $r: map-get($r, $s);
   @if not $r {
-    @error "Property #{$id} not found in ClearVision #{$p} set";
+    @error "Property #{$id} not found in Late Nights #{$p} set";
   }
   @return $r;
 }
