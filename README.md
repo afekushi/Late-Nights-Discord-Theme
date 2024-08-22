@@ -1,41 +1,5 @@
-[release-badge]: https://img.shields.io/github/v/release/ClearVision/ClearVision-v6?include_prereleases&style=flat-square
-[release-link]: https://github.com/ClearVision/ClearVision-v6/releases
-[license-badge]: https://img.shields.io/github/license/ClearVision/ClearVision-v6?style=flat-square
-[license-link]: https://github.com/ClearVision/ClearVision-v6/blob/master/LICENSE
-[discord-badge]: https://discord.com/api/guilds/1234681153756069908/widget.png?style=shield
-[discord-link]: [https://clearvision.github.io/join](https://discord.gg/bPU929gDUr)
-[issues-badge]: https://img.shields.io/github/issues/ClearVision/ClearVision-v6?style=flat-square
-[issues-link]: https://github.com/ClearVision/ClearVision-v6/issues
-[prs-badge]: https://img.shields.io/github/issues-pr/ClearVision/ClearVision-v6?style=flat-square
-[prs-link]: https://github.com/ClearVision/ClearVision-v6/pulls
-
-<div align="center">
-
-# ClearVision v6
-
-[![Releases][release-badge]][release-link]
-[![License][license-badge]][license-link]
-[![Discord Server][discord-badge]][discord-link]
-[![Issues][issues-badge]][issues-link]
-[![Pull Requests][prs-badge]][prs-link]
-
-![v6 Sapphire](https://i.imgur.com/U7UXrEN.png)
-
+# Late Nights
 </div>
-
-## Theme Editor
-
-You can now customize the theme with a preview before downloading it to your computer.
-
-Please keep in mind that **we do not manage the theme editor**, and cannot help with any bugs that come from using it.
-
-> [Theme Editor](https://bdeditor.dev/theme/clearvision)
-
-_Thank you to @Gibbu to providing this._
-
-## Installing
-
-Note: ClearVision doesn't actively support plugins (as in, we don't seek out and actively theme fixes to every new plugin). However, when a plugin is widely used, we try our best to stay compatible.
 
 **For BD and Vencord:**
 
