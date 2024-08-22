@@ -1,0 +1,10 @@
+//Voice Channel listening to or playing x game
+%voiceChannelListening {
+  background: cv('bg.general.popout');
+}
+%voiceChannelListeningIcon {
+  background: $main-color;
+  > svg {
+    color: #fff;
+  }
+}
