@@ -8,10 +8,6 @@ Download the theme file from [our official support server](https://clearvision.g
 - BetterDiscord: `%appdata%\betterdiscord\themes`
 - Vencord: `%appdata%\vencord\themes`
 
-**For Replugged:**
-
-Check out our replugged theme [here!](https://github.com/ClearVision/CV-Replugged)
-
 ## Building from source
 
 To build the theme from source, you can simply run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder.
