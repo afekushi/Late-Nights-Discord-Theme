@@ -3,8 +3,7 @@
 
 **For BD and Vencord:**
 
-Download the theme file from [our official support server](https://clearvision.github.io/join), [the BetterDiscord Website](https://betterdiscord.app/theme/ClearVision) or [releases](https://github.com/ClearVision/ClearVision-v6/releases) and move it into your injector's themes folder:
-
+Drag the theme file from downloads to either
 - BetterDiscord: `%appdata%\betterdiscord\themes`
 - Vencord: `%appdata%\vencord\themes`
 
