@@ -1,4 +1,18 @@
 # Late Nights
+
+Custom:
+![image](https://github.com/user-attachments/assets/28252f71-7fc7-48f4-acc1-31f88bf242fc)
+
+Minecraft:
+![image](https://github.com/user-attachments/assets/df76d536-c4e0-4d74-948c-4e3165730e28)
+
+Night:
+![image](https://github.com/user-attachments/assets/c9e186c4-82c6-45f4-bcd5-569396c32e2e)
+
+AnimeSky
+![image](https://github.com/user-attachments/assets/a99d606d-89ab-413d-bcb2-e9c26ef6aa2a)
+
+
 </div>
 
 **For BD and Vencord:**
