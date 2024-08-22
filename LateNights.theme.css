@@ -38,7 +38,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://github.com/afekushi/Late-Nights-Discord-Theme/blob/main/assets/background.png?raw=true); /* app background image (link must be HTTPS) [default: url(https://github.com/afekushi/Late-Nights-Discord-Theme/blob/main/assets/background.png?raw=true)]*/
+  --background-image: url(https://raw.githubusercontent.com/afekushi/Late-Nights-Discord-Theme/main/assets/background.png); /* app background image (link must be HTTPS) [default: url(https://raw.githubusercontent.com/afekushi/Late-Nights-Discord-Theme/main/assets/background.png)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
