@@ -1,6 +1,6 @@
 {
-  "name": "clearvision",
-  "description": "Highly customizable theme for BetterDiscord.",
+  "name": "latenights",
+  "description": "Highly customizable theme",
   "private": true,
   "scripts": {
     "build": "npm run clean && npm run build.sass",
@@ -15,25 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ClearVision/ClearVision-v6.git"
+    "url": "https://github.com/afekushi/Late-Nights-Discord-Theme/"
   },
-  "author": "Zerthox",
+  "author": "Aphexi",
   "contributors": [
-    "Leozard",
-    "NyxIsBad",
-    "LeafyLuigi",
-    "BabyBoySnow",
-    "Mentalscars",
-    "nihaals",
-    "OmgDani",
-    "untuned",
-    "xcruxiex"
+    ""
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ClearVision/ClearVision-v6/issues"
+    "url": "https://github.com/afekushi/Late-Nights-Discord-Theme/"
   },
-  "homepage": "https://clearvision.github.io",
+  "homepage": "https://github.com/afekushi/Late-Nights-Discord-Theme/",
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "postcss-cli": "^9.1.0",
