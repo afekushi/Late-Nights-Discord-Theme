@@ -1,0 +1,9 @@
+{
+	"name": "Nightcore",
+	"description": "How discord should be",
+	"version": "1.0.0",
+	"author": "Aphexi",
+	"theme": "dist/Nightcore.theme.css",
+	"consent": ["ext_listing"],
+	"license": "MIT"
+}

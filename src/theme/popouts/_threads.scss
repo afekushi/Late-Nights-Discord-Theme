@@ -1,0 +1,9 @@
+#app-mount {
+	.container_acb8b3 {
+		border: none;
+		background: var(--foreground);
+		&:hover {
+			background: var(--foreground-double);
+		}
+	}
+}

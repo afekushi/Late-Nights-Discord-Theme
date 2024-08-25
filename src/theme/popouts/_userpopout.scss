@@ -1,0 +1,168 @@
+#app-mount .userPopoutOuter_c69a7b {
+	box-shadow: none;
+	overflow: hidden !important;
+	position: relative;
+	border-radius: 8px;
+	opacity: 0;
+	animation: fadeIn 0.3s ease forwards;
+	padding: 0;
+
+	&::before {
+		content: '';
+		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
+		background-position: var(--fb-popout-position, center);
+		background-size: var(--fb-popout-size, cover);
+		background-attachment: var(--fb-popout-attachment, revert);
+		background-repeat: var(--fb-popout-repeat, no-repeat);
+		box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
+		height: calc(100% + var(--fb-popout-blur) * 5);
+		width: calc(100% + var(--fb-popout-blur) * 5);
+		top: calc(var(--fb-popout-blur) / -1 * 2.5);
+		left: calc(var(--fb-popout-blur) / -1 * 2.5);
+		position: absolute;
+		filter: blur(var(--fb-popout-blur));
+		transform: translate(var(--fb-popout-blur) / -1, calc(var(--fb-popout-blur) / -1));
+		pointer-events: none;
+		user-select: none;
+		z-index: -1;
+	}
+
+	.userPopoutInner_c69a7b {
+		&::before {
+			top: 4px;
+			left: 4px;
+		}
+
+		&:not(.userProfileInnerThemedNonPremium_c69a7b) {
+			.avatarPositionPremiumBanner-2nq2Fy {
+				top: 73px;
+				left: 21px;
+			}
+
+			.bannerSVGWrapper_b32cc2 {
+				margin: 2px 4px 4px 4px;
+				box-sizing: border-box;
+				width: calc(100% - 8px);
+				min-width: unset !important;
+			}
+		}
+
+		&.userProfileInnerThemedNonPremium_c69a7b {
+			.overlayBackground_c69a7b {
+				margin: 0 8px 8px;
+			}
+		}
+	}
+
+	.headerNormal-T_seeN {
+		background: transparent;
+	}
+
+	.headerPlaying-j0WQBV {
+		background: var(--gradient-50);
+	}
+
+	.headerXbox-3G-4PF {
+		background: rgb(var(--discord-xbox), 0.3);
+	}
+
+	.headerSpotify-zpWxgT {
+		background: hsl(var(--discord-spotify) / 0.3);
+	}
+
+	.headerStreaming-2FjmGz {
+		background: rgb(var(--discord-twitch), 0.3);
+	}
+
+	.wrapper-1VLyxH::after {
+		border-radius: 3px;
+	}
+
+	.activityName_c1d9fd,
+	.headerTag-2pZJzA,
+	.nameNormal-2lqVQK,
+	.nameWrap-3Z4G_9,
+	.textRow_c1d9fd {
+		color: var(--text-normal);
+	}
+
+	.body-3iLsc4 {
+		background: transparent;
+	}
+
+	.roles_fa2f72 {
+		gap: 4px;
+	}
+
+	.roleRemoveButton_f9575e {
+		position: unset;
+
+		& + .roleName_e4010c {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	.role_f9575e {
+		margin: 0;
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+		gap: 6px;
+		padding: 6px;
+		border: none;
+	}
+
+	.roleCircle_a26d7b {
+		position: unset;
+		overflow: visible;
+		filter: none;
+		margin: 0;
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: inherit;
+			opacity: 0.15;
+			z-index: 0;
+			pointer-events: none;
+		}
+	}
+
+	.roleRemoveIcon_e4010c {
+		left: 12px;
+	}
+
+	.roleName_e4010c {
+		margin: 0;
+		color: var(--text-focus);
+	}
+
+	.footer-1fjuF6 {
+		background: transparent;
+		border: none;
+	}
+
+	.quickMessage-1yeL4E {
+		background: var(--background-secondary);
+		border: none;
+		color: var(--text-normal);
+
+		&::placeholder {
+			color: rgb(255, 255, 255, 0.3);
+		}
+	}
+
+	.protip-YaFfgO {
+		display: none;
+	}
+
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground_c69a7b {
+		background: var(--background-secondary);
+	}
+
+	&.theme-light .inputDefault-3FGxgL::placeholder {
+		color: #000;
+	}
+}

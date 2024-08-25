@@ -1,0 +1,49 @@
+#app-mount .guilds_a4d4d9 {
+	// Home button
+	.tutorialContainer_f9623d {
+		.childWrapper_a6ce15 {
+			background: var(--gradient);
+			background-color: transparent;
+		}
+		.listItem_c96c45:first-child .wrapper__8436d {
+			&::before {
+				content: '';
+				border-radius: 50%;
+				position: absolute;
+				background: var(--home-button-image, url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'));
+				background-size: var(--home-button-size, cover);
+				background-position: var(--home-button-position, center);
+				background-repeat: var(--home-button-repeat, no-repeat);
+				height: 100%;
+				width: 100%;
+				transition: 0.2s ease;
+			}
+			&.selected_ae80f7::before {
+				border-radius: 30%;
+			}
+		}
+		.homeIcon__560eb {
+			display: none;
+		}
+	}
+	.selected_ae80f7 .acronym_fb7739 {
+		background: var(--foreground-double);
+	}
+	// No icon
+	.acronym_fb7739 {
+		background: var(--foreground);
+		&:hover {
+			background: var(--foreground-double);
+		}
+	}
+	// Add server/Discovery
+	[class*='circleIconButton'] {
+		background: var(--foreground);
+		color: rgb(var(--gradient-primary));
+		&.selected-ugP_am,
+		&:hover {
+			background: var(--foreground-double);
+			color: var(--text-normal);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+#app-mount {
+	.tooltip_b6c360 {
+		color: var(--text-normal);
+		text-align: center;
+		font-weight: 600;
+	}
+	.tooltipPrimary_b6c360 {
+		background: var(--gradient);
+		.tooltipPointer_b6c360 {
+			display: none;
+		}
+	}
+}

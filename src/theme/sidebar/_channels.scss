@@ -1,0 +1,36 @@
+#app-mount {
+	.containerDefault_f6f816 {
+		// Unread
+		.modeUnreadImportant_d8bfb3 .link_d8bfb3 {
+			background: var(--foreground);
+		}
+		// Hover
+		.wrapper-1ucjTd:hover .link_d8bfb3 {
+			background: var(--background-modifier-hover);
+			.icon_d8bfb3 {
+				color: var(--interactive-hover);
+			}
+		}
+		// Selected
+		&.selected_f6f816 .link_d8bfb3 {
+			background: var(--gradient) !important;
+			.icon_d8bfb3 {
+				color: var(--text-normal);
+			}
+		}
+	}
+	.users-i_3-kL {
+		background: var(--foreground);
+		padding: 0 5px;
+		width: auto;
+	}
+	.total-3tKGEB {
+		background: var(--foreground-double);
+		padding: 0 5px;
+		width: auto;
+	}
+	.containerUserOver_f6f816::after {
+		background: var(--gradient-20);
+		border: 2px solid rgb(var(--gradient-primary));
+	}
+}

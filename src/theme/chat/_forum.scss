@@ -1,0 +1,21 @@
+#app-mount {
+	.container-3wLKDe {
+		background: transparent;
+	}
+	.container_a6d69a {
+		background: var(--background-secondary);
+	}
+	.header_a6d69a {
+		background: var(--background-secondary);
+		.title-1v5ZfI {
+			background: transparent;
+		}
+	}
+	.pill_c993da {
+		background: var(--foreground);
+		transition: 0.15s ease background;
+		&:hover {
+			background: var(--foreground-double);
+		}
+	}
+}

@@ -1,0 +1,19 @@
+#app-mount .quickswitcher_f4e139 {
+	box-shadow: none;
+	padding: 20px;
+	.scrollerOuter-3FLELE {
+		margin-top: 10px;
+		margin-right: 0;
+		border-radius: 3px;
+	}
+	.scroller_f4e139 {
+		padding: 10px 5px 10px 10px;
+		box-sizing: border-box;
+		& > div[style*='width: 100%;'] {
+			display: none;
+		}
+	}
+	.protip_f4e139 {
+		display: none;
+	}
+}

@@ -1,0 +1,69 @@
+#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
+	// My account
+	.accountProfileCard_b69b77 {
+		background: var(--background-secondary);
+	}
+	.fieldList_b69b77 {
+		background: transparent;
+	}
+	// Authorized apps
+	.authedApp_f0135d {
+		background: var(--background-secondary);
+	}
+	// Connections
+	.connection_e2a436 {
+		position: relative;
+		overflow: hidden;
+		box-shadow: none;
+		.integration-3kMeY4 {
+			background: var(--foreground);
+			border: none;
+		}
+	}
+	.connectionHeader-2rV1ze {
+		background: transparent;
+		border: none;
+		margin-bottom: 0;
+	}
+	.connectionDelete-XXTMqE {
+		border: none;
+		background: var(--foreground);
+		transition: 0.2s ease;
+		&::after,
+		&::before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 2px;
+			height: 16px;
+		}
+		&::before {
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+		&::after {
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+		span {
+			display: none;
+		}
+		&:hover {
+			background: var(--foreground-double);
+		}
+		&:active {
+			background: var(--foreground-triple);
+		}
+	}
+	// Keybinds
+	.card_ffe375::before {
+		border-color: transparent;
+		background: var(--foreground);
+	}
+	// Game Activity
+	.game-3x3aDt {
+		box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+	}
+	// Language
+	.item-3eFBNF {
+		box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
+	}
+}

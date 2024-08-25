@@ -1,0 +1,33 @@
+#app-mount {
+	.container-enaOkj {
+		background: var(--background-secondary);
+		margin: 0 10px 10px;
+		border-radius: 3px;
+		padding: 0;
+		overflow: hidden;
+	}
+	.channelHeader_f3978e {
+		background: transparent;
+		padding: 15px 15px 0;
+		height: auto;
+		position: static;
+		.tertiary_ad6d80,
+		.item-3XjbnG.selected-g-kMVV {
+			background: var(--foreground);
+			&:hover {
+				background: var(--foreground-double);
+			}
+		}
+	}
+	.container_ddb5b4 {
+		margin: 0 16px 16px;
+		padding: 0;
+		border-radius: 3px;
+		box-sizing: border-box;
+		background: var(--foreground);
+	}
+	.messageContainer_ddb5b4 {
+		padding: 15px 15px 15px 0;
+		box-sizing: border-box;
+	}
+}
