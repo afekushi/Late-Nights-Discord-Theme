@@ -1,6 +1,6 @@
 :root {
   --TB-header-padding: 125px;
-  --TB-bar-height: 25px;
+  --TB-bar-height: 50px;
 }
 .platform-win .typeWindows_a934d8 {
   height: var(--TB-bar-height, 9px); /*ORIGINAL: 9*/
